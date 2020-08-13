@@ -1,0 +1,146 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(images/item5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    height: 700px;
+}
+
+.refresh{
+    margin-top: 10px;
+    text-align: end;
+    color: whitesmoke;
+}
+.refresh:hover{
+    cursor: pointer;
+}
+.fa-big{
+    font-size: 25px !important;
+}
+.head{
+    margin-top: 2px;
+    background-image: url(images/item2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+max-height: 50px;
+min-height: 170px;
+}
+#date{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+.date{
+    margin-left: 5px;
+ margin-top: 95px;
+}
+.content1{
+    justify-content: center;
+    height: 50px;
+margin-top: 10px;
+box-shadow: 1px 1px 1px 1px gray;
+border-radius: 2px;
+/* backface-visibility: 80%; */
+font-weight: 500;
+
+}
+.bg-color{
+  background-color: royalblue;  
+}
+.bg-color:hover{
+    opacity: 95%;
+}
+.fa-plus-circle{
+    color: blue;
+    opacity: 80%;
+}
+.content3{
+    margin-top: 10px;
+    position: fixed;
+  bottom: 30px;
+  margin-left: -20px;
+
+}
+input{
+
+border-radius: 4px;
+    border: transparent !important;
+}
+.add-icon,.textField{
+
+    font-style: oblique;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.add-icon{
+    margin-left: 10px;
+    margin-top: -3px;
+}
+.textField{
+    margin-left: -10px;
+}
+.add-icon:hover{
+cursor: pointer;
+font-size: 19px !important;
+}
+.green{
+    background-color: green !important;
+}
+.green:hover{
+    opacity: 95%;
+}
+.royalblue{
+    background-color: royalblue !important;
+}
+.royalblue:hover{
+    opacity: 95%;
+}
+.teal{
+    background-color: teal !important;
+}
+.teal:hover{
+    opacity: 95%;
+}
+.violet{
+    background-color: violet !important;
+}
+.violet:hover{
+    opacity: 95%;
+}
+.tomato{
+    background-color: tomato !important;
+}
+.tomato:hover{
+    opacity: 95%;
+}
+.circle-icon,.trash-icon,.text{
+    margin-top: 12px;
+}
+.input:hover{
+border: none !important;
+
+}
+.textField{
+    padding-right: 30px !important;
+    border: none !important;
+}
+.circle-icon:hover,.trash-icon:hover{
+    cursor: pointer;
+}
+::placeholder{
+    color: royalblue;
+    opacity: 70%;
+}
+.icon-color{
+color:darkgreen !important;
+}
+.text{
+    font-weight: 500;
+    font-size: 18px !important;
+}
