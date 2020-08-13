@@ -144,3 +144,8 @@ color:darkgreen !important;
     font-weight: 500;
     font-size: 18px !important;
 }
+.textField{
+    padding-right: 30px !important;
+    border: none !important;
+}
+
