@@ -19,7 +19,7 @@
         <!-- head  -->
        <div class="row head">          
         <div class="col-lg-12 refresh">
-           <i onclick="refresh()" class="fa fa-refresh fa-big" aria-hidden="true"></i>
+           <i onclick="removeAll()" class="fa fa-refresh fa-big" aria-hidden="true"></i>
         </div>
        
         <div class="col-lg-12 date">
@@ -70,7 +70,6 @@
        
        
 </body>
-<script src="app.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -80,4 +79,25 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDSaqu_eeN7BiWmGFRWvEjLX6MLa9p_Frc",
+          authDomain: "todo-app-f1acb.firebaseapp.com",
+          databaseURL: "https://todo-app-f1acb.firebaseio.com",
+          projectId: "todo-app-f1acb",
+          storageBucket: "todo-app-f1acb.appspot.com",
+          messagingSenderId: "32154619282",
+          appId: "1:32154619282:web:0592a56516f40a4634854b",
+          measurementId: "G-YMFY7DS1XV"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+    <script src="app.js"></script>
 </html>
