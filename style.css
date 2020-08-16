@@ -149,3 +149,6 @@ color:darkgreen !important;
     border: none !important;
 }
 
+.line{
+    text-decoration: line-through;
+  }
